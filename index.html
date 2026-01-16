@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Image Detector - Demystifying ML project for detecting AI-generated images">
+    <title>AI Image Detector | Demystifying ML</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">AI Image Detector</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Detecting AI-Generated Images</h1>
+                <p class="hero-subtitle">Using Machine Learning to distinguish real from artificial</p>
+                <div class="hero-buttons">
+                    <a href="#demo" class="btn btn-primary">See Demo</a>
+                    <a href="#solution" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section id="problem" class="section problem">
+        <div class="container">
+            <h2 class="section-title">The Problem</h2>
+            <div class="problem-content">
+                <div class="problem-text">
+                    <h3>Why AI Image Detection Matters</h3>
+                    <p>With the rapid advancement of generative AI technologies, distinguishing between real and AI-generated images has become increasingly challenging. This poses significant risks in areas such as:</p>
+                    <ul>
+                        <li>Misinformation and fake news</li>
+                        <li>Digital authentication and verification</li>
+                        <li>Copyright and intellectual property</li>
+                        <li>Social media credibility</li>
+                    </ul>
+                </div>
+                <div class="problem-visual">
+                    <!-- Add visualization or image here -->
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">90%</div>
+                            <div class="stat-label">of people can't reliably detect AI images</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">10B+</div>
+                            <div class="stat-label">AI images generated in 2024</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution -->
+    <section id="solution" class="section solution">
+        <div class="container">
+            <h2 class="section-title">Our Solution</h2>
+            <p class="section-intro">A machine learning approach to identify AI-generated images with high accuracy</p>
+            
+            <div class="solution-grid">
+                <div class="solution-card">
+                    <div class="card-icon">🧠</div>
+                    <h3>Deep Learning Model</h3>
+                    <p>Trained on thousands of real and AI-generated images to identify subtle patterns</p>
+                </div>
+                <div class="solution-card">
+                    <div class="card-icon">🔍</div>
+                    <h3>Feature Analysis</h3>
+                    <p>Analyzes key indicators like texture artifacts, frequency patterns, and inconsistencies</p>
+                </div>
+                <div class="solution-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Fast Detection</h3>
+                    <p>Real-time processing for quick and efficient image verification</p>
+                </div>
+                <div class="solution-card">
+                    <div class="card-icon">📊</div>
+                    <h3>Confidence Scoring</h3>
+                    <p>Provides probability scores to indicate detection certainty</p>
+                </div>
+            </div>
+
+            <!-- How It Works -->
+            <div class="how-it-works">
+                <h3>How It Works</h3>
+                <div class="process-flow">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-title">Upload Image</div>
+                        <div class="step-description">User provides an image for analysis</div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-title">Preprocessing</div>
+                        <div class="step-description">Image is normalized and prepared</div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-title">ML Analysis</div>
+                        <div class="step-description">Model extracts and analyzes features</div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-title">Results</div>
+                        <div class="step-description">Classification with confidence score</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo/Results -->
+    <section id="demo" class="section demo">
+        <div class="container">
+            <h2 class="section-title">Demo & Results</h2>
+            <p class="section-intro">See our model in action with sample detections</p>
+            
+            <div class="demo-grid">
+                <!-- Sample result cards - replace with actual results -->
+                <div class="demo-card">
+                    <div class="demo-image">
+                        <img src="images/demo-samples/sample1.jpg" alt="Sample 1">
+                    </div>
+                    <div class="demo-result">
+                        <span class="result-label real">Real Image</span>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: 95%"></div>
+                        </div>
+                        <span class="confidence-text">95% Confidence</span>
+                    </div>
+                </div>
+
+                <div class="demo-card">
+                    <div class="demo-image">
+                        <img src="images/demo-samples/sample2.jpg" alt="Sample 2">
+                    </div>
+                    <div class="demo-result">
+                        <span class="result-label ai">AI Generated</span>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill ai" style="width: 92%"></div>
+                        </div>
+                        <span class="confidence-text">92% Confidence</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Performance Metrics -->
+            <div class="metrics">
+                <h3>Model Performance</h3>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-value">89%</div>
+                        <div class="metric-label">Accuracy</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">87%</div>
+                        <div class="metric-label">Precision</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">91%</div>
+                        <div class="metric-label">Recall</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">89%</div>
+                        <div class="metric-label">F1 Score</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section team">
+        <div class="container">
+            <h2 class="section-title">Meet The Team</h2>
+            <p class="section-intro">The brilliant minds behind this project</p>
+            
+            <div class="team-grid">
+                <!-- Team member cards - update with actual team info -->
+                <div class="team-card">
+                    <div class="team-photo">
+                        <img src="images/team/member1.jpg" alt="Team Member">
+                    </div>
+                    <h3 class="team-name">Team Member 1</h3>
+                    <p class="team-role">Role/Specialization</p>
+                    <div class="team-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-photo">
+                        <img src="images/team/member2.jpg" alt="Team Member">
+                    </div>
+                    <h3 class="team-name">Team Member 2</h3>
+                    <p class="team-role">Role/Specialization</p>
+                    <div class="team-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-photo">
+                        <img src="images/team/member3.jpg" alt="Team Member">
+                    </div>
+                    <h3 class="team-name">Team Member 3</h3>
+                    <p class="team-role">Role/Specialization</p>
+                    <div class="team-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="section resources">
+        <div class="container">
+            <h2 class="section-title">Resources</h2>
+            
+            <div class="resources-grid">
+                <a href="#" class="resource-card">
+                    <div class="resource-icon">📁</div>
+                    <h3>GitHub Repository</h3>
+                    <p>View our code and implementation</p>
+                </a>
+                
+                <a href="#" class="resource-card">
+                    <div class="resource-icon">📄</div>
+                    <h3>Project Report</h3>
+                    <p>Detailed documentation and findings</p>
+                </a>
+                
+                <a href="#" class="resource-card">
+                    <div class="resource-icon">📊</div>
+                    <h3>Presentation</h3>
+                    <p>Slide deck from our presentation</p>
+                </a>
+                
+                <a href="#" class="resource-card">
+                    <div class="resource-icon">🔗</div>
+                    <h3>References</h3>
+                    <p>Research papers and resources</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>AI Image Detector</h4>
+                    <p>A Demystifying ML Module Project</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#problem">Problem</a></li>
+                        <li><a href="#solution">Solution</a></li>
+                        <li><a href="#team">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a1d5c4c0cce1c4d9c0ccd1cdc48fc2cecc">[email&#160;protected]</a></p>
+                    <p>University Name</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Image Detector Team. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
