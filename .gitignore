@@ -1,2 +1,3 @@
 ml/datasets/
 ml/venv/
+ml/best_model.pth
