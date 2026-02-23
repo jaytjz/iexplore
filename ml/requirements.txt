@@ -2,3 +2,8 @@ ipykernel
 torch
 torchvision
 matplotlib
+numpy
+pillow
+fastapi
+uvicorn
+python-multipart
